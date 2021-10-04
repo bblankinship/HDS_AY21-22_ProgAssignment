@@ -94,8 +94,8 @@ Below are instructions concerning the submission of your programming assignment 
 
 Help videos for finding your way around Turnitin:
 
-* For a quick-start overview of Turnitin please refer to [this guide.] (https://help.turnitin.com/feedback-studio/turnitin-website/student/quickstart.htm)
-* For a more detailed demonstration of the system, [this video should help.] (https://media.ed.ac.uk/media/Turnitin%20Assignment%20Submission/1_bm0ygpjb)
+* For a quick-start overview of Turnitin please refer to [this guide.](https://help.turnitin.com/feedback-studio/turnitin-website/student/quickstart.htm)
+* For a more detailed demonstration of the system, [this video should help.](https://media.ed.ac.uk/media/Turnitin%20Assignment%20Submission/1_bm0ygpjb)
 
 ### Help
 
