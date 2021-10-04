@@ -1,4 +1,8 @@
-# HDS_AY21-22_ProgAssignment
+---
+output:
+  pdf_document: default
+  html_document: default
+---
 # Programming Assignment Instructions
 
 **Deadline: submit assignment by Monday November 29th 2020, 12 noon GMT**
