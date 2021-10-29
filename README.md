@@ -69,7 +69,7 @@ If you have followed the course material you should already have most of these s
 
 ### Document Layout
 
-You are required to submit a single Word or PDF document as your report. This document must be the direct result of “Knit to Word” or “Knit to PDF” from R Markdown in RStudio. You must not apply any edits or modifications to your report outwith RStudio.
+You are required to submit a PDF document as your report. This document must be the direct result of "Knit to PDF" from R Markdown in RStudio. You must not apply any edits or modifications to your report outwith RStudio.
 
 Your report must include the following sections:
 
