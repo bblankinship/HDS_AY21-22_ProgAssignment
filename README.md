@@ -4,7 +4,7 @@ output:
 ---
 # Programming Assignment Instructions
 
-**Deadline: submit assignment by Monday November 29th 2020, 12 noon GMT**
+**Deadline: submit assignment by Monday November 29th 2021, 12 noon GMT**
 
 ### Background
 
