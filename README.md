@@ -4,7 +4,7 @@ output:
 ---
 # Programming Assignment Instructions
 
-**Deadline: submit assignment by Monday November 29th 2021, 12 noon GMT**
+**Deadline: submit assignment by Monday 20th June 2022, 12 noon BST**
 
 ### Background
 
@@ -16,8 +16,8 @@ In this project you will be exploring the **Unintentional Injuries** datasets (a
 
 Three data files are provided for your analysis: 
 
-* `ui_admissions_2021.csv`
-* `ui_deaths_2021.csv`
+* `ui_admissions_2022.csv`
+* `ui_deaths_2022.csv`
 * `hb_lookup.csv`  
 
 These are in CSV format and can be downloaded from the following link:
@@ -52,23 +52,24 @@ In your report, you must explore the following questions:
 
 Your report should be written as if it were to be read by government advisor who might be responsible for producing policies or guidance to help cut down on the number of injuries.  You only need to provide the evidence, you do not need to include recommendations or guidance on this.
 
-We are not looking for one specific analysis.  As you work with the data, feel free to make decisions on whether you want to focus on a specific demographic or location(s) if that makes your message clearer and analysis more sound. 
+We are not looking for one specific analysis. It is up to you to decide how to operationalise the two research questions.  As you work with the data, feel free to make decisions on whether you want to focus on a specific demographic or location(s) if that makes your message clearer and analysis more sound. 
 
 ### Requirements
 
 To carry out this assignment, you will need:
 
-* access to **RStudio** - this is where you will carry out your analysis and produce your report in R Markdown.
+* access to **RStudio** - this is where you will carry out your analysis and produce your report in R Markdown. If you are unable to use RStudio on your personal device, you will be able to complete the assignment using **Noteable**.
 * to make sure the following packages are installed: 
     + **rmarkdown** and **knitr** – for compiling the R Markdown document
     + **tidyverse** - for access to data wrangling and plotting functions you have learned in this course
+    + **gt** - for creating tables 
     + Optional: **janitor** - for cleaning up the variable names as they are read in from the CSV file
     
 If you have followed the course material you should already have most of these set up and ready to go.
 
 ### Document Layout
 
-You are required to submit a PDF document as your report. This document must be the direct result of "Knit to PDF" from R Markdown in RStudio. You must not apply any edits or modifications to your report outwith RStudio.
+You are required to submit a PDF document as your report. This document must be: the direct result of "Knit to PDF" from R Markdown in RStudio. You must not apply any edits or modifications to your report outwith RStudio.
 
 Your report must include the following sections:
 
@@ -93,7 +94,7 @@ There is a maximum **10 page** limit.
 Below are instructions concerning the submission of your programming assignment to Turnitin along with some further help videos for finding your way around Turnitin.
 
 * Your submission should be anonymous. Please include your **exam number** at the start of the Title box when asked for a **Title** after uploading your report in Turnitin.
-* Click on the link [**here**](https://www.learn.ed.ac.uk/webapps/turn-plgnhndl-BB5d1b15b77a8ac/links/submit.jsp?course_id=_86188_1&content_id=_6316104_1&orig_id=_6316104_1) to upload and submit your Word or PDF report to Turnitin.  Alternatively, you will find the same link at the top of the Programming Assignment page in Learn.
+* Click on the link [**here**](https://www.learn.ed.ac.uk/webapps/turn-plgnhndl-BB5d1b15b77a8ac/links/submit.jsp?course_id=_91387_1&content_id=_7040919_1&orig_id=_7040919_1) to upload and submit your PDF report to Turnitin.  Alternatively, you will find the same link at the top of the Programming Assignment page in Learn.
 
 Help videos for finding your way around Turnitin:
 
@@ -114,4 +115,4 @@ If you have any issues or questions relating to the assignment, please post on t
 
 [15%] **Wrangling**: Produces effective code to deal with data wrangling and tidying, e.g., dplyr, tidyr, clarity of process documentation
 
-[15%] **Plotting**: Produces effective code to create plots, e.g., ggplot2, clarity of presented information
+[15%] **Data visualisation**: Produces effective code to create plots (e.g., ggplot2) and tables (e.g., gt) clarity of presented information
