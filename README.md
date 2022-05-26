@@ -107,12 +107,13 @@ If you have any issues or questions relating to the assignment, please post on t
 
 ### Marking Criteria
 
-[25%] **Reporting**: Demonstrates features of R Markdown, e.g., YAML, Markdown, chunk options, adheres to structure, figure guidelines, answering of questions
-
-[15%] **Demonstrating reproducibility**: Report rendering, commenting, code readability, object naming, use of raw data
+[25%] **Report presentation**: Demonstrates features of R Markdown, e.g., YAML, Markdown, chunk options, adheres to structure, figure guidelines, answering of questions
 
 [20%] **Intellectual contribution**: Demonstrates understanding of R and R Markdown, uses initiative through intellectual contribution and added value to answer the research questions
 
+[25%] **Data visualisation**: Produces effective code to create plots (e.g., ggplot2) and tables (e.g., gt) clarity of presented information
+
 [15%] **Wrangling**: Produces effective code to deal with data wrangling and tidying (e.g., dplyr, tidyr), clarity of process documentation
 
-[25%] **Data visualisation**: Produces effective code to create plots (e.g., ggplot2) and tables (e.g., gt) clarity of presented information
+[15%] **Demonstrating reproducibility**: Report rendering, commenting, code readability, object naming, use of raw data
+
