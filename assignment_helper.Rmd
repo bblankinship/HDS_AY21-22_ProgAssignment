@@ -2,7 +2,6 @@
 title: "YOUR TITLE HERE"
 output:
   pdf_document: default
-  html_document: default
 ---
 
 ```{r setup, include=FALSE}
@@ -12,13 +11,14 @@ knitr::opts_chunk$set(echo = TRUE, message = FALSE, dpi = 300)
 ```{r packages}
 library(tidyverse)
 library(janitor)
+library(gt)
 ```
 
-```{r read in data}
-orig_ui_admissions <- read_csv("ui_admissions_2021.csv")
+```{r read-in-data}
+orig_ui_admissions <- read_csv("ui_admissions_2022.csv")
 ```
 
-```{r data wrangling}
+```{r data-wrangling}
 ui_admissions <- orig_ui_admissions %>% 
   clean_names() %>% 
   separate(financial_year, into = c("year", NA), sep = "/") %>% 
@@ -41,7 +41,8 @@ ui_admissions %>%
 ```{r table}
 ui_admissions %>%
   group_by(injury_type, sex) %>% 
-  summarise(total_admis = sum(number_of_admissions)) %>% 
-  knitr::kable()
+  summarise(total_admis = sum(number_of_admissions)) %>%
+  ungroup() %>% 
+  gt()
 ```
 
